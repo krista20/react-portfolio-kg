@@ -2,28 +2,41 @@ import React, {useState} from 'react'
 import Nav from './components/Nav';
 import Header from './components/Header';
 import Project from './components/Project';
+import Resume from './components/Resume';
+import ContactForm from './components/Contact';
 import Footer from './components/Footer';
 
-import logo from './logo.svg';
-import './App.css';
 
 function App() {
+  const [contactSelected, setContactSelected] = useState(false);
+  const [projects] = useState([
+    {
+      name: 'projects',
+      description: 'My Portfolio of various web development projects to showcase'
+    }
+  ])
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Nav
+         projects={projects}
+        
+         contactSelected={contactSelected}
+         setContactSelected={setContactSelected}
+        ></Nav>
       </header>
+      <main>
+      {!contactSelected ? (
+      <>
+       <Project currentCategory={currentCategory}></Project>
+       <Resume></Resume>
+      </>
+      ) : (
+      <ContactForm></ContactForm>
+      )}
+      <Footer></Footer>
+      </main>
     </div>
   );
 }
