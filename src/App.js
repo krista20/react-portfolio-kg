@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import Nav from './components/Nav';
-import Header from './components/Header';
 import Project from './components/Project';
 import Resume from './components/Resume';
 import ContactForm from './components/Contact';
@@ -15,13 +14,14 @@ function App() {
       description: 'My Portfolio of various web development projects to showcase'
     }
   ])
+  const [projectImages, setProjectImages] = useState(projects)
 
   return (
     <div className="App">
       <header className="App-header">
         <Nav
          projects={projects}
-        
+         setprojectImages={setProjectImages}
          contactSelected={contactSelected}
          setContactSelected={setContactSelected}
         ></Nav>
@@ -29,7 +29,7 @@ function App() {
       <main>
       {!contactSelected ? (
       <>
-       <Project currentCategory={currentCategory}></Project>
+       <Project projectImages={projectImages}></Project>
        <Resume></Resume>
       </>
       ) : (

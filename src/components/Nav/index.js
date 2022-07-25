@@ -1,11 +1,11 @@
 import React from "react";
-import { capitalizeFirstLetter } from "../../utils/helpers";
+// import { capitalizeFirstLetter } from "../../utils/helpers";
 
 function Nav(props) {
     const {
-        categories = [],
-        setCurrentCategory,
-        currentCategory,
+        // projects = [],
+        // setProjectImages,
+        // ProjectImages,
         navImage,
         contactSelected,
         setContactSelected
@@ -37,14 +37,15 @@ function Nav(props) {
                     <li className={`mx-2 ${contactSelected && 'navActive'}`}>
                         <span onClick={() => setContactSelected(true)}>Portfolio</span>
                     </li>
-                    {/* Contact */}
-                    <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-                        <span onClick={() => setContactSelected(true)}>Contact</span>
-                    </li>
                     {/* Resume */}
                     <li className={`mx-2 ${contactSelected && 'navActive'}`}>
                         <span onClick={() => setContactSelected(true)}>Resume</span>
                     </li>
+                    {/* Contact */}
+                    <li className={`mx-2 ${contactSelected && 'navActive'}`}>
+                        <span onClick={() => setContactSelected(true)}>Contact</span>
+                    </li>
+                    
                 </ul>
             </nav>
         </header>
