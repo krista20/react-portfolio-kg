@@ -8,7 +8,7 @@ function Portfolio(props) {
         <section>
             <h1 data-testid="h1tag">{projectImages}</h1>
             <h1>Portfolio</h1>
-            <div>
+            <div className="container">
                 {/* 1. anibite project */}
                 <img
                     //src assignd required expression | incremental naming of the imgs using i
