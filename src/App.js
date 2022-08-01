@@ -5,9 +5,6 @@ import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import ContactForm from './components/Contact';
 import Footer from './components/Footer';
-import Porftfolio from './components/Portfolio';
-// import Footer from './components/Footer';
-
 
 function App() {
   // uses state to get the page
