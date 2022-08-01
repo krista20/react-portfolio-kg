@@ -1,41 +1,50 @@
 import React, {useState} from 'react'
-import Nav from './components/Nav';
-import Project from './components/Project';
+import Header from './components/Header';
+import About from './components/About';
+import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 import ContactForm from './components/Contact';
 import Footer from './components/Footer';
+import Porftfolio from './components/Portfolio';
+// import Footer from './components/Footer';
 
 
 function App() {
-  const [contactSelected, setContactSelected] = useState(false);
-  const [projects] = useState([
-    {
-      name: 'projects',
-      description: 'My Portfolio of various web development projects to showcase'
-    }
-  ])
-  const [projectImages, setProjectImages] = useState(projects)
+  // uses state to get the page
+  const [ currentPage, setCurrentPage ] = useState()
 
+function pageChanger(page) {
+  if(page === "About") {
+    return <About/> 
+  }
+  if(page === "Portfolio") {
+    return <Portfolio/>
+  }
+  if(page === "Resume") {
+    return <Resume/>
+  }
+  if(page === "Contact") {
+    return <ContactForm/>
+  }
+}
   return (
     <div className="App">
-      <header className="App-header">
-        <Nav
-         projects={projects}
-         setprojectImages={setProjectImages}
-         contactSelected={contactSelected}
-         setContactSelected={setContactSelected}
-        ></Nav>
-      </header>
+      <Header 
+      setCurrentPage={setCurrentPage}
+      className="App-header"/>
+     {pageChanger(currentPage)}
+      <Footer/>
+      
       <main>
-      {!contactSelected ? (
+      {/* {!contactSelected ? (
       <>
        <Project projectImages={projectImages}></Project>
        <Resume></Resume>
       </>
       ) : (
       <ContactForm></ContactForm>
-      )}
-      <Footer></Footer>
+      )} */}
+     
       </main>
     </div>
   );
