@@ -4,14 +4,14 @@ import React from "react";
 function Header(props) {
     console.log(props)
     return (
-        <header className="">
+        <header>
 
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark pe-auto">
             <div>
                 <ul className="nav container-fluid mx-5">
                     {/* Name & click to route to main page */}
                     <a href="/" rel="mainpage" style={{textDecoration: "none"}}>
-                    <h1 className="text-white">Krista Garcia</h1>
+                    <h1 id="name" className="text-white">Krista Garcia</h1>
                     </a>
                 
                     {/* about me */}
