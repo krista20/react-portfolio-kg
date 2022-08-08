@@ -3,6 +3,7 @@ import React from "react";
 function About() {
 
     return (
+      
         <section>
             <div className="my-2">
 

@@ -11,12 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-span:hover {
+/* span:hover {
+  opacity: .8;
+} */
+
+#myname:focus {
   opacity: .8;
 }
 
-#name:hover {
-  opacity: .8;
-}
 
 

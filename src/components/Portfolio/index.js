@@ -1,4 +1,7 @@
 import React from "react";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 
 function Portfolio(props) {
@@ -8,18 +11,18 @@ function Portfolio(props) {
         <section>
             <h1 data-testid="h1tag">{projectImages}</h1>
             <h1>Portfolio</h1>
-            <div className="container">
+            <div className="container row">
 
-                <div className="col">
+                <Container className="">
                 {/* 1. anibite project */}
                 <h2>Anibite:</h2>
-                <img
+                <img 
                     //src assignd required expression | incremental naming of the imgs using i
                     // default property --> is where the img has been saved. To render img, default property must be invoked  
                     src={require(`../../assets/photos/anibite-page.png`)}
                     alt="anibite"
-                    className="img-thumbnail"
-                    style={{width:"50%"}}
+                    className="img-thumbnail row"
+                    style={{width:"30%"}}
                 />
               
 
@@ -31,10 +34,10 @@ function Portfolio(props) {
                     // default property --> is where the img has been saved. To render img, default property must be invoked  
                     src={require(`../../assets/photos/horiseon-img.jpg`)}
                     alt="horiseon"
-                    className="img-thumbnail"
-                    style={{width:"50%"}}
+                    className="img-thumbnail row"
+                    style={{width:"30%"}}
                 />
-                </div>
+                </Container>
                 
                 <div>
                 {/* 3. run-buddy project */}
@@ -44,7 +47,8 @@ function Portfolio(props) {
                     // default property --> is where the img has been saved. To render img, default property must be invoked  
                     src={require(`../../assets/photos/run-buddy-img.jpg`)}
                     alt="horiseon"
-                    className="img-thumbnail mx-1"
+                    className="img-thumbnail"
+                    style={{width:"30%"}}
                 />
                 </div>
 
@@ -56,7 +60,8 @@ function Portfolio(props) {
                     // default property --> is where the img has been saved. To render img, default property must be invoked  
                     src={require(`../../assets/photos/sanchez-autodetailing.png`)}
                     alt="horiseon"
-                    className="img-thumbnail mx-1"
+                    className="img-thumbnail"
+                    style={{width:"30%"}}
                 />
                 </div>
 
@@ -68,7 +73,8 @@ function Portfolio(props) {
                     // default property --> is where the img has been saved. To render img, default property must be invoked  
                     src={require(`../../assets/photos/work-day-scheduler.png`)}
                     alt="horiseon"
-                    className="img-thumbnail mx-1"
+                    className="img-thumbnail"
+                    style={{width:"30%"}}
                 />
                 </div>
 
@@ -80,7 +86,8 @@ function Portfolio(props) {
                     // default property --> is where the img has been saved. To render img, default property must be invoked  
                     src={require(`../../assets/photos/pwa-budget-tracker.png`)}
                     alt="horiseon"
-                    className="img-thumbnail mx-1"
+                    className="img-thumbnail"
+                    style={{width:"30%"}}
                 />
                 </div>
             </div>
