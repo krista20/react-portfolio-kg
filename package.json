@@ -1,6 +1,6 @@
 {
-  "homepage": "http://krista20.github.io/kgreact-portfolio",
-  "name": "kgreact-portfolio",
+  "homepage": "http://krista20.github.io/react-portfolio-kg",
+  "name": "react-portfolio-kg",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
