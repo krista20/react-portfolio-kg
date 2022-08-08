@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/kgreact-portfolio/static/css/main.d22059f3.css",
+    "main.js": "/kgreact-portfolio/static/js/main.342b2760.js",
+    "static/js/787.ef203233.chunk.js": "/kgreact-portfolio/static/js/787.ef203233.chunk.js",
+    "static/media/sanchez-autodetailing.png": "/kgreact-portfolio/static/media/sanchez-autodetailing.c47f013eb35b19a98f5e.png",
+    "static/media/run-buddy-img.jpg": "/kgreact-portfolio/static/media/run-buddy-img.23faf9ca1b10161af9d0.jpg",
+    "static/media/anibite-page.png": "/kgreact-portfolio/static/media/anibite-page.659dbbbdc1761fa4ed83.png",
+    "static/media/horiseon-img.jpg": "/kgreact-portfolio/static/media/horiseon-img.a93da634d473084171ed.jpg",
+    "static/media/pwa-budget-tracker.png": "/kgreact-portfolio/static/media/pwa-budget-tracker.b333cd14b1cc7e788cb1.png",
+    "static/media/work-day-scheduler.png": "/kgreact-portfolio/static/media/work-day-scheduler.b6c9b3b54cf1a14e63b5.png",
+    "static/media/krista-picture.jpg": "/kgreact-portfolio/static/media/krista-picture.89eaf6f1bd0a5e63af4d.jpg",
+    "index.html": "/kgreact-portfolio/index.html",
+    "main.d22059f3.css.map": "/kgreact-portfolio/static/css/main.d22059f3.css.map",
+    "main.342b2760.js.map": "/kgreact-portfolio/static/js/main.342b2760.js.map",
+    "787.ef203233.chunk.js.map": "/kgreact-portfolio/static/js/787.ef203233.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d22059f3.css",
+    "static/js/main.342b2760.js"
+  ]
+}
