@@ -19,5 +19,10 @@ code {
   opacity: .8;
 }
 
+.link {
+  text-decoration: none;
+  color: rgb(55, 55, 55);
+}
+
 
 
