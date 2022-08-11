@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/react-portfolio-kg/static/css/main.d22059f3.css",
-    "main.js": "/react-portfolio-kg/static/js/main.3c07e552.js",
+    "main.css": "/react-portfolio-kg/static/css/main.ddcb7bbf.css",
+    "main.js": "/react-portfolio-kg/static/js/main.f7405ee7.js",
     "static/js/787.7964d33d.chunk.js": "/react-portfolio-kg/static/js/787.7964d33d.chunk.js",
     "static/media/sanchez-autodetailing.png": "/react-portfolio-kg/static/media/sanchez-autodetailing.c47f013eb35b19a98f5e.png",
+    "static/media/everAfterBakery.png": "/react-portfolio-kg/static/media/everAfterBakery.0a6477c9cb1c4e479b4c.png",
     "static/media/run-buddy-img.jpg": "/react-portfolio-kg/static/media/run-buddy-img.23faf9ca1b10161af9d0.jpg",
     "static/media/anibite-page.png": "/react-portfolio-kg/static/media/anibite-page.659dbbbdc1761fa4ed83.png",
     "static/media/horiseon-img.jpg": "/react-portfolio-kg/static/media/horiseon-img.a93da634d473084171ed.jpg",
@@ -11,12 +12,12 @@
     "static/media/work-day-scheduler.png": "/react-portfolio-kg/static/media/work-day-scheduler.b6c9b3b54cf1a14e63b5.png",
     "static/media/krista-picture.jpg": "/react-portfolio-kg/static/media/krista-picture.89eaf6f1bd0a5e63af4d.jpg",
     "index.html": "/react-portfolio-kg/index.html",
-    "main.d22059f3.css.map": "/react-portfolio-kg/static/css/main.d22059f3.css.map",
-    "main.3c07e552.js.map": "/react-portfolio-kg/static/js/main.3c07e552.js.map",
+    "main.ddcb7bbf.css.map": "/react-portfolio-kg/static/css/main.ddcb7bbf.css.map",
+    "main.f7405ee7.js.map": "/react-portfolio-kg/static/js/main.f7405ee7.js.map",
     "787.7964d33d.chunk.js.map": "/react-portfolio-kg/static/js/787.7964d33d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d22059f3.css",
-    "static/js/main.3c07e552.js"
+    "static/css/main.ddcb7bbf.css",
+    "static/js/main.f7405ee7.js"
   ]
 }
