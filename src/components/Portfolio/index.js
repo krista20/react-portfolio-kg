@@ -14,7 +14,7 @@ function Portfolio(props) {
 
 
                 {/* 7. Ever After Bakery */}
-                <a href="https://www.facebook.com/EverAfterBakery/" rel="github" className="link pe-auto">
+                <a href="https://ever-after-bakery.herokuapp.com/" rel="github" className="link pe-auto">
                     <h2 className="text-center">Ever After Bakery:</h2>
                 </a>
                 <div className="container d-inline-flex justify-content-center">
